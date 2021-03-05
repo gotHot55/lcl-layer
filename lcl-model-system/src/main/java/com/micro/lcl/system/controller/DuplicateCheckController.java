@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Todo
+ * 重复校验
  *
  * @author Administrator
  * @date 2021/3/416:40
