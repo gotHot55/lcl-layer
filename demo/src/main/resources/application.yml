@@ -1,0 +1,13 @@
+server:
+  port: ${server.port:8080}
+spring:
+  application:
+    name: ${application.name:aaa}
+  rabbitmq:
+    username: ${rabbitmq.username:guest1}
+    password: ${rabbitmq.password:guest2}
+  datasource:
+    url: ${datasource.url:jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true:}
+    username: ${datasource.username:root}
+    password: ${datasouce.password:}
+    type: ${datasource.type:com.mysql.cj.jdbc.MysqlDataSource}

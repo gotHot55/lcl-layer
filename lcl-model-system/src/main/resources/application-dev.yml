@@ -1,0 +1,100 @@
+# mybatis-plus配置
+mybatis-plus:
+  ## mapper文件位置
+  mapper-locations: classpath*:/mapper/**/*.xml
+  ## 别名包设置，在mapper.xml中可直接用类名
+  type-aliases-package: com.micro.lcl.entity
+  global-config:
+    db-config:
+      # 生成ID方式：AUTO数据库自增 input自己输入 assign_uuid默认生成器
+      id-type: auto
+      # 逻辑删除字段
+      logic-delete-field: deleted
+      # 逻辑删除已删除值
+      logic-delete-value: 1
+      # 逻辑删除未删除值
+      logic-not-delete-value: 0
+  configuration:
+    # 自动驼峰命名规则映射
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+spring:
+#json时间戳同意转换
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    druid:
+      stat-view-servlet:
+        enabled: true
+        login-username: admin
+        login-password: 123456
+        allow:
+      web-stat-filter:
+        enabled: true
+    dynamic:
+      druid: # 全局druid参数，绝大部分值和默认保持一致
+        #连接池的配置信息
+        #初始化大小，最小，最大
+        initial-size: 5
+        max-active: 20
+        min-idle: 5
+        #配置获取连接等待超时时间
+        max-wait: 60000
+        # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+        time-between-eviction-runs-millis: 60000
+        # 配置一个连接在池中最小生存的时间，单位是毫秒
+        min-evictable-idle-time-millis: 300000
+        validation-query: SELECT 1 FROM DUAL
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        #打开PSCache，并且制定每个连接上PSCache的大小
+        pool-prepared-statements: true
+        max-pool-prepared-statement-per-connection-size: 20
+        # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+        filters: stat,wall,slf4j
+        # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+        connection-properties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+      datasource:
+        master:
+          url: jdbc:mysql://127.0.0.1:3306/z-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=UTC
+          username: root
+          password: 123
+          driver-class-name: com.mysql.cj.jdbc.Driver
+            # 多数据源配置
+            #multi-datasource1:
+            #url: jdbc:mysql://localhost:3306/z-boot2?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+            #username: root
+          #password: root
+          #driver-class-name: com.mysql.cj.jdbc.Driver
+  #redis 配置
+  redis:
+    database: 0
+    host: 127.0.0.1
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+      shutdown-timeout: 100ms
+    password: ''
+    port: 6379
+resources:
+  static-locations: classpath:/static/,classpath:/public/
+boot:
+  uploadType: local
+  path:
+    #文件上传根目录 设置
+    upload: D://opt//upFiles
+    #webapp文件路径
+    webapp: D://opt//webapp
+  shiro:
+    excludeUrls: /test/jeecgDemo/demo3,/test/jeecgDemo/redisDemo/**,/category/**,/visual/**,/map/**,/jmreport/bigscreen2/**
+server:
+  servlet:
+    context-path: /dev-api
+logging:
+  level:
+    com.micro.lcl.system.repository: debug

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b2aa34b-edd7-4440-b616-03237d96723e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/Maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="F:\software\Maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lx0Rfg3KchGqlKUVHbwmWBALuO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jwt-authorization/src/main/java/com/lcl/layer/domain" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\lcl-layer\lcl-model-system\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.micro.lcl.system.utils" />
+      <recent name="com.micro.lcl.constant" />
+      <recent name="com.micro.lcl.common" />
+      <recent name="com.micro.lcl.config" />
+      <recent name="com.micro.lcl.config.shiro.filter" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.micro.lcl.common.utils" />
+      <recent name="com.lcl.layer.component" />
+      <recent name="com.lcl.layer.constant" />
+      <recent name="com.lcl.layer.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\lcl-layer\jwt-authorization\src\main\java\com\lcl\layer\domain" />
+      <recent name="F:\project\lcl-layer\jwt-authorization\src\main\java\com\lcl\layer\config" />
+      <recent name="F:\project\lcl-layer\jwt-authorization\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="PasswordUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.lcl.system.utils.PasswordUtil" />
+      <module name="lcl-model-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.lcl.system.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandImageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.micro.lcl.common.utils.RandImageUtil" />
+      <module name="lcl-boot-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.micro.lcl.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lcl-layer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcl.layer.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.middle.test.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8888" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="application.name" />
+          <option name="value" value="bbbb" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="rabbitmq.username" />
+          <option name="value" value="guest" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="rabbitmq.password" />
+          <option name="value" value="guest" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="datsource.type" />
+          <option name="value" value="com.mysql.cj.jdbc.MysqlDataSource" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="datasource.username" />
+          <option name="value" value="root" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="datasource.password" />
+          <option name="value" value="123" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="datasource.url" />
+          <option name="value" value="jdbc:mysql://localhost:3306/z-boot?characterEncoding=UTF-8&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtAuthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jwt-authorization" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lcl.layer.JwtAuthorizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LclBootBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lcl-boot-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.lcl.LclBootBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LclModelSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lcl-model-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.micro.lcl.LclModelSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RandImageUtil" />
+        <item itemvalue="Application.PasswordUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b2aa34b-edd7-4440-b616-03237d96723e" name="Default Changelist" comment="" />
+      <created>1608523427655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608523427655</updated>
+      <workItem from="1608523436168" duration="8992000" />
+      <workItem from="1611818699625" duration="2633000" />
+      <workItem from="1611912174619" duration="2212000" />
+      <workItem from="1612168279770" duration="8029000" />
+      <workItem from="1612251259663" duration="5476000" />
+      <workItem from="1612426911163" duration="4035000" />
+      <workItem from="1612682175982" duration="8472000" />
+      <workItem from="1612765373620" duration="12315000" />
+      <workItem from="1612854468635" duration="9576000" />
+      <workItem from="1612926375518" duration="7411000" />
+      <workItem from="1613633122676" duration="8963000" />
+      <workItem from="1613718917457" duration="4059000" />
+      <workItem from="1613727134736" duration="1872000" />
+      <workItem from="1613783569906" duration="1731000" />
+      <workItem from="1613805091160" duration="8907000" />
+      <workItem from="1613980265883" duration="7731000" />
+      <workItem from="1614065191971" duration="9290000" />
+      <workItem from="1614153198196" duration="6979000" />
+      <workItem from="1614245195528" duration="2028000" />
+      <workItem from="1614326020246" duration="7433000" />
+      <workItem from="1614562976829" duration="1836000" />
+      <workItem from="1614581235389" duration="15634000" />
+      <workItem from="1614845390932" duration="5528000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="196" y="0" width="967" height="728" key="#DemoApplication" timestamp="1614657497380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="196" y="0" width="967" height="728" key="#DemoApplication/0.0.1366.728@0.0.1366.728" timestamp="1614657497380" />
+    <state x="618" y="46" key="#Inspections" timestamp="1612690666222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="618" y="46" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1612690666222" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1611822500161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1611822500161" />
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1614850068268">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1614850068268" />
+    <state x="393" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613641559984">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1613641559984" />
+    <state x="829" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1614850012703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="829" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614850012703" />
+    <state x="324" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612689491013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1612689491013" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614161358371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1614161358371" />
+    <state width="1151" height="52" key="GridCell.Tab.0.bottom" timestamp="1614852523905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="52" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614852523905" />
+    <state width="1151" height="52" key="GridCell.Tab.0.center" timestamp="1614852523905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="52" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614852523905" />
+    <state width="1151" height="52" key="GridCell.Tab.0.left" timestamp="1614852523905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="52" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614852523905" />
+    <state width="1151" height="52" key="GridCell.Tab.0.right" timestamp="1614852523905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="52" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614852523905" />
+    <state width="1151" height="52" key="GridCell.Tab.1.bottom" timestamp="1614852523905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="52" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614852523905" />
+    <state width="1151" height="52" key="GridCell.Tab.1.center" timestamp="1614852523905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="52" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614852523905" />
+    <state width="1151" height="52" key="GridCell.Tab.1.left" timestamp="1614852523905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="52" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614852523905" />
+    <state width="1151" height="52" key="GridCell.Tab.1.right" timestamp="1614852523905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="52" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614852523905" />
+    <state width="1151" height="316" key="GridCell.Tab.2.bottom" timestamp="1614155422886">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="316" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614155422886" />
+    <state width="1151" height="316" key="GridCell.Tab.2.center" timestamp="1614155422886">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="316" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1614155422886" />
+    <state width="1151" height="316" key="GridCell.Tab.2.left" timestamp="1614155422886">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="316" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1614155422886" />
+    <state width="1151" height="316" key="GridCell.Tab.2.right" timestamp="1614155422886">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1151" height="316" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1614155422886" />
+    <state x="263" y="98" key="IDE.errors.dialog" timestamp="1612774086743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="98" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1612774086743" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1608544016253">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1608544016253" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1614652213585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614652213585" />
+    <state x="491" y="144" width="841" height="584" key="find.popup" timestamp="1614328384912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="144" width="841" height="584" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1614328384912" />
+    <state x="37" y="100" width="1251" height="533" key="new project wizard" timestamp="1614652077707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="37" y="100" width="1251" height="533" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1614652077707" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1612687652914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612687652914" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612773713230">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612773713230" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java</url>
+          <line>57</line>
+          <properties class="com.micro.lcl.config.shiro.ShiroConfig" method="shiroFilter" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
