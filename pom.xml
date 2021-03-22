@@ -30,6 +30,7 @@
         <hutool.version>5.4.1</hutool.version>
         <java-jwt.version>3.11.0</java-jwt.version>
         <fastjson.version>1.2.75</fastjson.version>
+        <commons.version>2.6</commons.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -58,34 +59,79 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- commons -->
             <dependency>
-                <groupId>com.micro.lcl</groupId>
-                <artifactId>lcl-boot-base</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>4.4</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.11</version>
+            </dependency>
+
+            <!-- Lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- mybatis-plus -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.plust.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>*</artifactId>
+                        <groupId>org.apache.logging.log4j</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>HikariCP</artifactId>
+                        <groupId>com.zaxxer</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- druid -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <!-- 动态数据源 -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+                <version>3.2.0</version>
+            </dependency>
+
+            <!--mysql-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+                <scope>runtime</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
     <dependencies>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>${hutool.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>${fastjson.version}</version>
-        </dependency>
     </dependencies>
     <modules>
-        <module>jwt-authorization</module>
-
+<!--        <module>jwt-authorization</module>-->
         <module>lcl-boot-base</module>
-
         <module>lcl-model-system</module>
     </modules>
 	<build>

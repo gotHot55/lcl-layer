@@ -1,4 +1,4 @@
-package com.micro.lcl.common.api.model.model;
+package com.micro.lcl.common.api.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

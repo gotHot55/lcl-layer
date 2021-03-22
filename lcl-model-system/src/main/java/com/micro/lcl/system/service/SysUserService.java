@@ -1,8 +1,8 @@
 package com.micro.lcl.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.micro.lcl.common.api.model.Result;
-import com.micro.lcl.common.api.model.model.LoginUserModel;
+import com.micro.lcl.common.api.Result;
+import com.micro.lcl.common.api.model.LoginUserModel;
 
 /**
  * Todo

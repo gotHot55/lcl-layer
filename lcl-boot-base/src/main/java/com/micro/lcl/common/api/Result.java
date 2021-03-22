@@ -1,4 +1,4 @@
-package com.micro.lcl.common.api.model;
+package com.micro.lcl.common.api;
 
 import com.micro.lcl.constant.BaseConstant;
 import io.swagger.annotations.ApiModel;

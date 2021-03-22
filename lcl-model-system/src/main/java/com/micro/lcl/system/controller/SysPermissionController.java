@@ -1,7 +1,7 @@
 package com.micro.lcl.system.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.micro.lcl.common.api.model.Result;
+import com.micro.lcl.common.api.Result;
 import com.micro.lcl.common.utils.JwtUtil;
 import com.micro.lcl.system.constant.CommonConstant;
 import com.micro.lcl.system.model.PermissionTree;

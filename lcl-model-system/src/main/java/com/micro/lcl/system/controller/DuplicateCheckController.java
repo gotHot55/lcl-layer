@@ -1,13 +1,12 @@
 package com.micro.lcl.system.controller;
 
-import com.micro.lcl.common.api.model.Result;
+import com.micro.lcl.common.api.Result;
 import com.micro.lcl.common.utils.SqlInjectionUtil;
 import com.micro.lcl.system.model.DuplicateCheckVo;
 import com.micro.lcl.system.repository.SysDictRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

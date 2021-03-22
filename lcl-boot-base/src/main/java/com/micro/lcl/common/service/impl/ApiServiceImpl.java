@@ -1,10 +1,9 @@
 package com.micro.lcl.common.service.impl;
 
-import com.micro.lcl.common.api.model.model.LoginUserModel;
+import com.micro.lcl.common.api.model.LoginUserModel;
 import com.micro.lcl.common.service.ApiService;
 import com.micro.lcl.common.service.LoginUserService;
 import com.micro.lcl.common.service.UserRoleService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

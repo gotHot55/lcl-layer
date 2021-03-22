@@ -1,6 +1,6 @@
 package com.micro.lcl.config.shiro;
 
-import com.micro.lcl.common.api.model.model.LoginUserModel;
+import com.micro.lcl.common.api.model.LoginUserModel;
 import com.micro.lcl.common.service.ApiService;
 import com.micro.lcl.common.utils.CommonUtil;
 import com.micro.lcl.common.utils.JwtUtil;

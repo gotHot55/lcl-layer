@@ -4,7 +4,6 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Todo
  *
  * @author Administrator
  * @date 2021/2/2216:38

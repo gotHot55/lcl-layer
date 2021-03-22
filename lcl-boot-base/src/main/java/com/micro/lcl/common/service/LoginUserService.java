@@ -1,7 +1,7 @@
 package com.micro.lcl.common.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.micro.lcl.common.api.model.model.LoginUserModel;
+import com.micro.lcl.common.api.model.LoginUserModel;
 import org.apache.ibatis.annotations.Param;
 
 /**

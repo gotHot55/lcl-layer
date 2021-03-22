@@ -1,10 +1,9 @@
-package com.micro.lcl.common.api.model.model;
+package com.micro.lcl.common.api.model;
 
 import com.baomidou.mybatisplus.annotation.*;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 import org.springframework.format.annotation.DateTimeFormat;
 

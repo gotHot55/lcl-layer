@@ -1,23 +1,7 @@
-# mybatis-plus配置
-mybatis-plus:
-  ## mapper文件位置
-  mapper-locations: classpath*:/mapper/**/*.xml
-  ## 别名包设置，在mapper.xml中可直接用类名
-  type-aliases-package: com.micro.lcl.entity
-  global-config:
-    db-config:
-      # 生成ID方式：AUTO数据库自增 input自己输入 assign_uuid默认生成器
-      id-type: auto
-      # 逻辑删除字段
-      logic-delete-field: deleted
-      # 逻辑删除已删除值
-      logic-delete-value: 1
-      # 逻辑删除未删除值
-      logic-not-delete-value: 0
-  configuration:
-    # 自动驼峰命名规则映射
-    map-underscore-to-camel-case: true
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+server:
+  port: 8080
+  servlet:
+    context-path: /dev-api
 spring:
 #json时间戳同意转换
   jackson:
@@ -92,9 +76,36 @@ boot:
     webapp: D://opt//webapp
   shiro:
     excludeUrls: /test/jeecgDemo/demo3,/test/jeecgDemo/redisDemo/**,/category/**,/visual/**,/map/**,/jmreport/bigscreen2/**
-server:
-  servlet:
-    context-path: /dev-api
+
+# mybatis-plus配置
+mybatis-plus:
+  ## mapper文件位置
+  mapper-locations: classpath*:/mapper/**/*.xml
+  ## 别名包设置，在mapper.xml中可直接用类名
+  type-aliases-package: com.micro.lcl.entity
+  global-config:
+    db-config:
+      # 生成ID方式：AUTO数据库自增 input自己输入 assign_uuid默认生成器
+      id-type: auto
+      # 逻辑删除字段
+      logic-delete-field: deleted
+      # 逻辑删除已删除值
+      logic-delete-value: 1
+      # 逻辑删除未删除值
+      logic-not-delete-value: 0
+  configuration:
+    # 自动驼峰命名规则映射
+    map-underscore-to-camel-case: true
+    # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 返回类型为Map,显示null对应的字段
+    call-setters-on-nulls: true
+file:
+  upload:
+    #文件上传目录
+    url: F:/data
 logging:
   level:
-    com.micro.lcl.system.repository: debug
+    com.micro.lcl.system.service: debug
+    org.springframework.web: debug
+    org.springframework.boot: debug

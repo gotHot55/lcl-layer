@@ -123,6 +123,7 @@ public class ShiroConfig {
 
     @Bean("securityManager")
     public DefaultWebSecurityManager securityManager(ShiroRealm myRealm) {
+        log.debug("----------加载securityManager----------------");
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         securityManager.setRealm(myRealm);
         /*

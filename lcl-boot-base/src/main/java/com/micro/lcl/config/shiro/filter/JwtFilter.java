@@ -1,6 +1,6 @@
 package com.micro.lcl.config.shiro.filter;
 
-import com.micro.lcl.common.api.model.Result;
+import com.micro.lcl.common.api.Result;
 import com.micro.lcl.common.utils.JsonUtil;
 import com.micro.lcl.config.shiro.JWTtoken;
 import com.micro.lcl.constant.BaseConstant;
@@ -11,7 +11,6 @@ import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.authc.AuthenticatingFilter;
-import org.apache.shiro.web.filter.authc.BasicHttpAuthenticationFilter;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -48,6 +47,7 @@ public class JwtFilter extends AuthenticatingFilter {
     @Override
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
         try {
+            log.debug("_-_-_-返回结果：executeLogin(request, response)--------------");
             return executeLogin(request, response);
         } catch (Exception e) {
             throw new AuthenticationException("Token失效，请重新登录！");

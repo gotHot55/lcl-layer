@@ -1,15 +1,13 @@
 package com.micro.lcl.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.micro.lcl.common.api.model.Result;
-import com.micro.lcl.common.api.model.model.LoginUserModel;
-import com.micro.lcl.common.api.model.model.UserRole;
+import com.micro.lcl.common.api.Result;
+import com.micro.lcl.common.api.model.LoginUserModel;
+import com.micro.lcl.common.api.model.UserRole;
 import com.micro.lcl.common.service.UserRoleService;
 import com.micro.lcl.constant.CacheConstant;
 import com.micro.lcl.system.constant.CommonConstant;
-import com.micro.lcl.system.model.SysUserRoleModel;
 import com.micro.lcl.system.repository.SysUserRepository;
 import com.micro.lcl.system.repository.SysUserRoleRepository;
 import com.micro.lcl.system.service.SysUserRoleService;

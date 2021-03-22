@@ -1,7 +1,6 @@
 package com.micro.lcl.system.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.micro.lcl.common.api.model.model.UserRole;
 import com.micro.lcl.system.model.SysUserRoleModel;
 
 import java.util.Set;

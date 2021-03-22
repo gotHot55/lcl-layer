@@ -53,12 +53,6 @@
             <artifactId>java-jwt</artifactId>
             <version>${java-jwt.version}</version>
         </dependency>
-        <!--mybatis-plus-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>${mybatis.plust.version}</version>
-        </dependency>
         <!--动态数据源-->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -71,11 +65,16 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
         </dependency>
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis.plust.version}</version>
+        </dependency>
         <!--redis-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
-
         </dependency>
         <!--<dependency>
             <groupId>org.springframework.boot</groupId>
@@ -116,6 +115,24 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
             <version>2.3.8.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
         </dependency>
     </dependencies>
 

@@ -1,9 +1,7 @@
 package com.micro.lcl.common.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.micro.lcl.common.api.model.model.LoginUserModel;
-import com.micro.lcl.common.api.model.model.UserRole;
+import com.micro.lcl.common.api.model.UserRole;
 import com.micro.lcl.common.repository.UserRoleMapper;
 import com.micro.lcl.common.service.UserRoleService;
 import lombok.extern.slf4j.Slf4j;

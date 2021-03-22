@@ -1,8 +1,7 @@
 package com.micro.lcl.common.service;
 
-import com.micro.lcl.common.api.model.model.LoginUserModel;
+import com.micro.lcl.common.api.model.LoginUserModel;
 
-import java.util.List;
 import java.util.Set;
 
 /**

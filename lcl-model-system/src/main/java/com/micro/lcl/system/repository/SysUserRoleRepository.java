@@ -1,7 +1,6 @@
 package com.micro.lcl.system.repository;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.micro.lcl.common.api.model.model.UserRole;
 import com.micro.lcl.system.model.SysUserRoleModel;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

@@ -1,7 +1,6 @@
 package com.micro.lcl.system.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.micro.lcl.common.api.model.model.UserRole;
 import com.micro.lcl.system.model.SysUserRoleModel;
 import com.micro.lcl.system.repository.SysUserRoleRepository;
 import com.micro.lcl.system.service.SysUserRoleService;
