@@ -27,7 +27,6 @@ public class LoginUserServiceImpl extends ServiceImpl<LoginUserMapper, LoginUser
         QueryWrapper<LoginUserModel> wrapper = new QueryWrapper<>();
         wrapper.eq("username", username);
         wrapper.eq("del_flag", 0);
-        loginUserMapper.selectOne(wrapper);
-        return null;
+        return loginUserMapper.selectOne(wrapper);
     }
 }

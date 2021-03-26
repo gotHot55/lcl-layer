@@ -96,6 +96,11 @@ public class Result<T> implements Serializable {
         return this;
     }
 
+    public Result<T> ok(String message) {
+        this.message = message;
+        return this;
+    }
+
     /**
      * 无访问权限结果
      */

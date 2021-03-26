@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.micro.lcl.common.api.Result;
 import com.micro.lcl.common.api.model.LoginUserModel;
 
+import java.util.Set;
+
 /**
  * Todo
  *
@@ -16,4 +18,13 @@ public interface SysUserService extends IService<LoginUserModel> {
     void addUserWithRole(LoginUserModel userModel);
 
     void editUserWithRole(LoginUserModel userModel);
+
+    boolean deleteUser(String id);
+
+    /**
+     *通过用户名获取权限集合
+     * @param username 用户名
+     * @return
+     */
+    Set<String> getUserPermissionSet(String username);
 }

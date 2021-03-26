@@ -9,7 +9,6 @@
     </parent>
     <groupId>com.micro.lcl</groupId>
     <artifactId>lcl-model-system</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>lcl-model-system</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -28,7 +27,7 @@
         <dependency>
             <groupId>com.micro.lcl</groupId>
             <artifactId>lcl-boot-base</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${lcl.version}</version>
         </dependency>
     </dependencies>
 

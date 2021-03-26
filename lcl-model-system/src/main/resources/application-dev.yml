@@ -106,6 +106,6 @@ file:
     url: F:/data
 logging:
   level:
-    com.micro.lcl.system.service: debug
-    org.springframework.web: debug
-    org.springframework.boot: debug
+    com.micro.lcl.system.service: info
+    org.springframework.web: info
+    org.springframework.boot: info

@@ -24,7 +24,7 @@ public class SysUserRoleServiceImpl extends ServiceImpl<SysUserRoleRepository, S
     @Override
     public Set<String> getRoleByUsername(String username) {
         List<String> roles = baseMapper.getRoleByUserName(username);
-        log.debug("用户:{}，拥有权限：{}", username, roles);
+        log.error("用户:{}，拥有权限：{}", username, roles);
         return new HashSet<>(roles);
     }
 

@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.experimental.Accessors;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -18,7 +19,10 @@ import java.util.Date;
 @Data
 @Accessors(chain = true)
 @TableName(value = "sys_user")
-public class LoginUserModel {
+public class LoginUserModel implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     /**
      * id
      */

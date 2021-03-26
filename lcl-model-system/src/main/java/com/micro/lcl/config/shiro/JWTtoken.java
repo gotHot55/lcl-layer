@@ -1,6 +1,7 @@
 package com.micro.lcl.config.shiro;
 
 import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.UsernamePasswordToken;
 
 /**
  * Todo
@@ -8,7 +9,7 @@ import org.apache.shiro.authc.AuthenticationToken;
  * @author Administrator
  * @date 2021/2/417:11
  */
-public class JWTtoken implements AuthenticationToken {
+public class JWTtoken extends UsernamePasswordToken {
     public static final Long serialVersionUID = 1L;
 
     private final String token;

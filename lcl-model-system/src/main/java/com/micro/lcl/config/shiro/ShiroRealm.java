@@ -7,6 +7,7 @@ import com.micro.lcl.common.utils.JwtUtil;
 import com.micro.lcl.common.utils.RedisUtil;
 import com.micro.lcl.common.utils.SpringContextUtil;
 import com.micro.lcl.constant.BaseConstant;
+import com.micro.lcl.system.service.SysUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -34,7 +35,8 @@ public class ShiroRealm extends AuthorizingRealm {
     @Resource
     @Lazy
     private ApiService apiService;
-
+    @Resource
+    private SysUserService sysUserService;
     @Resource
     @Lazy
     private RedisUtil redisUtil;
@@ -53,7 +55,7 @@ public class ShiroRealm extends AuthorizingRealm {
      */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-        log.info("========================Shiro权限认证开始==================");
+        log.error("========================Shiro权限认证开始==================");
         String username = null;
         if (principals != null) {
             LoginUserModel user = (LoginUserModel) principals.getPrimaryPrincipal();
@@ -61,8 +63,12 @@ public class ShiroRealm extends AuthorizingRealm {
         }
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
         Set<String> roleSet = apiService.getRoleByUserName(username);
-        info.addStringPermissions(roleSet);
-        log.info("===============Shiro权限认证成功==拥有权限：{}============",roleSet);
+        // 设置用户拥有的角色集合，比如“admin,test”
+        info.setRoles(roleSet);
+        Set<String> permissionSet = sysUserService.getUserPermissionSet(username);
+        // 设置用户拥有的权限集合，比如“sys:role:add,sys:user:add”
+        info.addStringPermissions(permissionSet);
+        log.error("===============Shiro权限认证成功==拥有权限：{},permissionSet:{}============", roleSet, permissionSet);
         return info;
     }
 
@@ -101,6 +107,7 @@ public class ShiroRealm extends AuthorizingRealm {
         }
         //校验token是否超时失效 & 或者账号密码是否错误
         if (!jwtTokenRefer(token, username, loginUser.getPassword())) {
+            log.error("进入到了这里。。。。");
             throw new AuthenticationException("Token失效，请重新登录！");
         }
         return loginUser;

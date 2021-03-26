@@ -18,7 +18,7 @@
       <module name="demo" options="-parameters" />
       <module name="jwt-authorization" options="-parameters" />
       <module name="lcl-boot-base" options="-parameters" />
-      <module name="lcl-layer" options="-parameters" />
+      <module name="lcl-layer" options="" />
       <module name="lcl-model-system" options="-parameters" />
     </option>
   </component>

@@ -20,42 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2aa34b-edd7-4440-b616-03237d96723e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/log/HostAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/log/LogRollingFileAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/log/LogSizeAndTimeBasedRollingPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/mybatis/MybatisInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/config/web/ExceptionHandlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/CalImportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcl-model-system/src/main/resources/logback-spring.xml.temp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_logs/springAppName_IS_UNDEFINED-172.18.60.17.log" beforeDir="false" afterPath="$PROJECT_DIR$/error_logs/springAppName_IS_UNDEFINED-172.18.60.17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info_logs/springAppName_IS_UNDEFINED-172.18.60.17.log" beforeDir="false" afterPath="$PROJECT_DIR$/info_logs/springAppName_IS_UNDEFINED-172.18.60.17.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-boot-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/LclBootBaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/LclBootBaseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/model/model/LoginUserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/model/LoginUserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/model/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/model/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/repository/LoginUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/repository/LoginUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/LclBootBaseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/model/LoginUserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/api/model/LoginUserModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/repository/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/repository/UserRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/ApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/LoginUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/LoginUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/UserRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/impl/ApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/impl/ApiServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/impl/LoginUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/impl/LoginUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/impl/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/service/impl/UserRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/utils/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/common/utils/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/RestTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/mybatis/MybatisInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/mybatis/MybatisInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/JWTtoken.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/config/shiro/JWTtoken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/config/shiro/ShiroRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/config/shiro/filter/JwtFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-model-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/config/MybatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/DuplicateCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/DuplicateCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/LclModelSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/LclModelSystemApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/SysPermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/SysPermissionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/repository/SysUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/repository/SysUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/repository/SysUserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/repository/SysUserRoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/SysDictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/SysDictService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/SysUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/SysUserRoleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/SysUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/impl/SysDictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/impl/SysDictServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/system/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
@@ -109,7 +90,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lcl-model-system/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lcl-model-system/src/main/java/com/micro/lcl/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -128,14 +109,11 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.micro.lcl.system.utils" />
-      <recent name="com.micro.lcl.constant" />
-      <recent name="com.micro.lcl.common" />
-      <recent name="com.micro.lcl.config" />
-      <recent name="com.micro.lcl.config.shiro.filter" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\lcl-layer\lcl-model-system\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\lcl-layer\lcl-model-system\src\main\java\com\micro\lcl\config" />
       <recent name="F:\project\lcl-layer\lcl-model-system\src\main\resources" />
       <recent name="F:\project\lcl-layer\jwt-authorization\src\main\java\com\lcl\layer\domain" />
       <recent name="F:\project\lcl-layer\jwt-authorization\src\main\java\com\lcl\layer\config" />
@@ -148,8 +126,12 @@
       <recent name="com.lcl.layer.constant" />
       <recent name="com.lcl.layer.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\project\lcl-layer\lcl-model-system\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.micro.lcl.system.utils" />
+      <recent name="com.micro.lcl.constant" />
+      <recent name="com.micro.lcl.common" />
+      <recent name="com.micro.lcl.config" />
+      <recent name="com.micro.lcl.config.shiro.filter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,7 +295,9 @@
       <workItem from="1615193434540" duration="2418000" />
       <workItem from="1615252195457" duration="5119000" />
       <workItem from="1615451472873" duration="16520000" />
-      <workItem from="1616394704742" duration="9929000" />
+      <workItem from="1616394704742" duration="11121000" />
+      <workItem from="1616659844713" duration="22144000" />
+      <workItem from="1616750082087" duration="1497000" />
     </task>
     <servers />
   </component>
@@ -345,18 +329,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1611822500161" />
-    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1614850068268">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1616746987407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1614850068268" />
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616746987407" />
     <state x="393" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613641559984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="393" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1613641559984" />
-    <state x="829" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1616396700167">
+    <state x="829" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1616746637087">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="829" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1616396700167" />
+    <state x="829" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1616746637087" />
     <state x="324" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612689491013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -365,54 +349,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1614161358371" />
-    <state width="540" height="412" key="GridCell.Tab.0.bottom" timestamp="1616403544115">
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom" timestamp="1616751573622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="540" height="412" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616403544115" />
-    <state width="540" height="412" key="GridCell.Tab.0.center" timestamp="1616403544115">
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616751573622" />
+    <state width="1323" height="206" key="GridCell.Tab.0.center" timestamp="1616751573622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="540" height="412" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616403544115" />
-    <state width="540" height="412" key="GridCell.Tab.0.left" timestamp="1616403544115">
+    <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616751573622" />
+    <state width="1323" height="206" key="GridCell.Tab.0.left" timestamp="1616751573622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="540" height="412" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616403544115" />
-    <state width="540" height="412" key="GridCell.Tab.0.right" timestamp="1616403544115">
+    <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616751573622" />
+    <state width="1323" height="206" key="GridCell.Tab.0.right" timestamp="1616751573622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="540" height="412" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616403544115" />
-    <state width="540" height="412" key="GridCell.Tab.1.bottom" timestamp="1616403544115">
+    <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616751573622" />
+    <state width="1151" height="342" key="GridCell.Tab.1.bottom" timestamp="1616750651452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="540" height="412" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616403544115" />
-    <state width="540" height="412" key="GridCell.Tab.1.center" timestamp="1616403544115">
+    <state width="1151" height="342" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616750651452" />
+    <state width="1151" height="342" key="GridCell.Tab.1.center" timestamp="1616750651452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="540" height="412" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616403544115" />
-    <state width="540" height="412" key="GridCell.Tab.1.left" timestamp="1616403544115">
+    <state width="1151" height="342" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616750651452" />
+    <state width="1151" height="342" key="GridCell.Tab.1.left" timestamp="1616750651452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="540" height="412" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616403544115" />
-    <state width="540" height="412" key="GridCell.Tab.1.right" timestamp="1616403544115">
+    <state width="1151" height="342" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616750651452" />
+    <state width="1151" height="342" key="GridCell.Tab.1.right" timestamp="1616750651452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="540" height="412" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616403544115" />
-    <state width="1151" height="311" key="GridCell.Tab.2.bottom" timestamp="1615455209637">
+    <state width="1151" height="342" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616750651452" />
+    <state width="1151" height="355" key="GridCell.Tab.2.bottom" timestamp="1616748260180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1151" height="311" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615455209637" />
-    <state width="1151" height="311" key="GridCell.Tab.2.center" timestamp="1615455209637">
+    <state width="1151" height="355" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616748260180" />
+    <state width="1151" height="355" key="GridCell.Tab.2.center" timestamp="1616748260180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1151" height="311" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1615455209637" />
-    <state width="1151" height="311" key="GridCell.Tab.2.left" timestamp="1615455209637">
+    <state width="1151" height="355" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1616748260180" />
+    <state width="1151" height="355" key="GridCell.Tab.2.left" timestamp="1616748260180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1151" height="311" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1615455209637" />
-    <state width="1151" height="311" key="GridCell.Tab.2.right" timestamp="1615455209637">
+    <state width="1151" height="355" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1616748260180" />
+    <state width="1151" height="355" key="GridCell.Tab.2.right" timestamp="1616748260180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1151" height="311" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1615455209637" />
+    <state width="1151" height="355" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1616748260180" />
     <state x="263" y="98" key="IDE.errors.dialog" timestamp="1616394756613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -425,10 +409,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614652213585" />
-    <state x="491" y="144" width="841" height="584" key="find.popup" timestamp="1615196593510">
+    <state x="491" y="144" width="841" height="584" key="find.popup" timestamp="1616745155336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="491" y="144" width="841" height="584" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1615196593510" />
+    <state x="491" y="144" width="841" height="584" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1616745155336" />
     <state x="37" y="100" width="1251" height="533" key="new project wizard" timestamp="1614652077707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -437,24 +421,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612687652914" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1612773713230">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616743888417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1612773713230" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616743888417" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/filter/JwtFilter.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/filter/JwtFilter.java</url>
           <line>63</line>
@@ -462,19 +436,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/filter/JwtFilter.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="8" />
+          <line>65</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/filter/JwtFilter.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroConfig.java</url>
-          <line>57</line>
-          <properties class="com.micro.lcl.config.shiro.ShiroConfig" method="shiroFilter" />
-          <option name="timeStamp" value="5" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lcl-boot-base/src/main/java/com/micro/lcl/config/shiro/ShiroRealm.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../software/Maven/apache-maven-3.5.4/repository/org/apache/shiro/shiro-core/1.7.0/shiro-core-1.7.0-sources.jar!/org/apache/shiro/authz/ModularRealmAuthorizer.java</url>
+          <line>418</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

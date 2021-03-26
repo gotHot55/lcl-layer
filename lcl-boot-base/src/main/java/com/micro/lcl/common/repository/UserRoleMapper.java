@@ -16,7 +16,7 @@ import java.util.List;
  */
 @Mapper
 public interface UserRoleMapper extends BaseMapper<UserRole> {
-    @Select("select role_code from sys_role where role_id in (select role_id from sys_user_role where user_id=(select id from sys_user where username=#{username}))")
+    @Select("select role_code from sys_role where id in (select role_id from sys_user_role where user_id=(select id from sys_user where username=#{username}))")
     List<String> getRoleByUserName(@Param("username") String username);
 
     @Select("select role_id from sys_user_role where user_id=(select id from sys_user where username=#{username})")

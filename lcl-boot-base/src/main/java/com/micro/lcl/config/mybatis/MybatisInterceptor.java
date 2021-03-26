@@ -43,7 +43,7 @@ public class MybatisInterceptor implements Interceptor {
             LoginUserModel sysUser = this.getLoginUser();
             Field[] fields = CommonUtil.getAllFields(parameter);
             for (Field field : fields) {
-                log.debug("------field.nam--------{}",field.getName());
+                log.debug("------field.name--------{}",field.getName());
                 try {
                     if ("createBy".equals(field.getName())) {
                         field.setAccessible(true);
@@ -54,6 +54,10 @@ public class MybatisInterceptor implements Interceptor {
                                 //登录人账号
                                 field.setAccessible(true);
                                 field.set(parameter,sysUser.getUsername());
+                                field.setAccessible(false);
+                            }else {
+                                field.setAccessible(true);
+                                field.set(parameter, "Administrator");
                                 field.setAccessible(false);
                             }
                         }
@@ -99,6 +103,10 @@ public class MybatisInterceptor implements Interceptor {
                             //登录账号
                             field.setAccessible(true);
                             field.set(parameter, sysUser.getUsername());
+                            field.setAccessible(false);
+                        }else {
+                            field.setAccessible(true);
+                            field.set(parameter, "Administrator");
                             field.setAccessible(false);
                         }
                     }

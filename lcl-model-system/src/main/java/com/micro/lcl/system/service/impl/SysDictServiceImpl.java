@@ -71,7 +71,9 @@ public class SysDictServiceImpl extends ServiceImpl<SysDictRepository, SysDictMo
     public Map<String, String> batchImport(String filename, MultipartFile file) throws IOException {
         Map<String, String> map = new HashMap<>();
         List<SysDictModel> sysDictModelList = new ArrayList<>();
-        if (!(filename.matches("^.+\\.(?i)(xls)$") && filename.matches("^.+\\.(?i)(xlsx)$"))) {
+        log.error("xls:{},xlsx:{}",filename.matches("^.+\\.(?i)(xls)$"),filename.matches("^.+\\.(?i)(xlsx)$"));
+        if (!(filename.matches("^.+\\.(?i)(xls)$") || filename.matches("^.+\\.(?i)(xlsx)$"))) {
+            log.info("{}文件名，文件格式不正确", filename);
             map.put("resultMessage", "文件格式不正确！");
             return map;
         }
@@ -91,7 +93,8 @@ public class SysDictServiceImpl extends ServiceImpl<SysDictRepository, SysDictMo
             map.put("resultMessage", "Excel表导入成功！");
         SysDictModel sysDictModel;
         //根据总行数循环
-        for (int i = 1; i < sheet.getLastRowNum(); i++) {
+        log.error("总行数：{}",sheet.getLastRowNum());
+        for (int i = 1; i < sheet.getLastRowNum()+1; i++) {
             //获取行对象
             Row row = sheet.getRow(i);
             if (row==null) continue;
@@ -109,6 +112,7 @@ public class SysDictServiceImpl extends ServiceImpl<SysDictRepository, SysDictMo
             if (description == null || description.isEmpty()) {
                 map.put("ResultMessage", "导入失败（第" + (i + 1) + "行，描述不能为空");
             }
+            row.getCell(3).setCellType(CellType.STRING);
             String delFlag = row.getCell(3).getStringCellValue();
             if (delFlag == null || delFlag.isEmpty()) {
                 map.put("ResultMessage", "导入失败（第" + (i + 1) + "行，描述不能为空");

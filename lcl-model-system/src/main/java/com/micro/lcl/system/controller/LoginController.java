@@ -87,6 +87,7 @@ public class LoginController {
             return result;
         }
         userInfo(userModel,result);
+        log.error("打印信息:{}",result);
         return result;
     }
     @ApiOperation("退出登录")
@@ -112,7 +113,7 @@ public class LoginController {
         //生成token
         String token = JwtUtil.sign(username, password);
 //        添加redis缓存
-        redisUtil.set(CommonConstant.PREFIX_USER_TOKEN+token, token,JwtUtil.EXPIRE_TIME*2/1000);
+        redisUtil.set(BaseConstant.REDIS_USER_TOKEN+token, token,JwtUtil.EXPIRE_TIME*2/1000);
         //获取用户部门信息
         JSONObject obj = new JSONObject();
 //        List<SysDepartModel> departs = sysDepartService.queryUserDeparts(userModel.getId());

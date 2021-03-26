@@ -68,6 +68,7 @@ public class JwtFilter extends AuthenticatingFilter {
             return true;
         } catch (AuthenticationException e) {
             throwable = e;
+            log.error("------401错误：{},\n---详细信息：{},类：{}",e.getMessage(),e.toString(),e.getClass());
             httpServletResponse.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
             result = Result.error(HttpServletResponse.SC_UNAUTHORIZED, e.getMessage());
         } catch (RuntimeException e) {
@@ -88,6 +89,8 @@ public class JwtFilter extends AuthenticatingFilter {
     protected AuthenticationToken createToken(ServletRequest request, ServletResponse response) {
         HttpServletRequest httpServletRequest = (HttpServletRequest) request;
         String token = httpServletRequest.getHeader(BaseConstant.X_ACCESS_TOKEN);
+        log.error("request:{}", request);
+        log.error("token:{}", token);
         if (StringUtils.isEmpty(token)) {
             throw new UnknownAccountException("token cannot be empty.");
         }
